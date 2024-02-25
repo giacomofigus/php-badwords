@@ -1,7 +1,8 @@
 <?php
     $testo = $_GET["paragrafo"];
-    $censura = "Lorem"
-    
+    $parolacensura = "Lorem";
+    $censura = "***";
+    $nuovotesto = str_replace($parolacensura, $censura, $testo);
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +22,7 @@
 
     <h3>Paragrafo censurato</h3>
     <p>
-        <?php echo $testo; ?>
+        <?php echo $nuovotesto; ?>
     </p>
 </body>
 </html>
