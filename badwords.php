@@ -1,6 +1,6 @@
 <?php
     $testo = $_GET["paragrafo"];
-    $parolacensura = "Lorem";
+    $parolacensura = $_GET["censura"];
     $censura = "***";
     $nuovotesto = str_replace($parolacensura, $censura, $testo);
 ?>

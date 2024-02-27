@@ -9,11 +9,10 @@
 
     <form action="badwords.php" method="GET">
         <input type="text" name="paragrafo" placeholder="Scrivi il paragrafo">
+        <input type="text" name="censura" placeholder="Scrivi censura">
+
         <button type="submit">Invia</button>
 
     </form>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae rutrum libero.<br> Duis tincidunt, dui vitae suscipit suscipit, augue dolor bibendum lorem, nec efficitur ipsum<br> sem ut arcu.</p>
-
 </body>
 </html>
